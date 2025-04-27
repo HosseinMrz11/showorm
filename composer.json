@@ -1,0 +1,23 @@
+{
+  "name": "elysite/showorm",
+  "description": "A simple lightweight PHP ORM based on PDO",
+  "type": "library",
+  "keywords": ["orm", "database", "pdo", "mysql"],
+  "homepage": "https://github.com/HosseinMrz11/showorm",
+  "autoload": {
+    "psr-4": {
+      "ShowORM\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hossein Mirzaaghazadeh",
+      "email": "hoseinmr6041@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  }
+}
